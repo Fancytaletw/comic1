@@ -1,8 +1,7 @@
 # 使用規則:
-# 請將漫畫第一頁網址填入web_URL
+# 請將下面"可變動變數建立"填寫完畢
 # 請將漫畫總集數填入total_episode_amount
-# 請將漫畫儲存的資料夾建立並指定，最後PDF檔也會在那裡
-# 因為使用網路監測  所以建議可以掛個直播 lofi之類的
+# 請將漫畫儲存的資料夾指定，最後PDF檔也會在那裡
 
 from selenium import webdriver 
 from time import sleep, time
@@ -20,7 +19,7 @@ os.system("cls")
 
 # 可更動變數建立
 comic_web_URL = "https://mh5.tw/series-wunydlt-412076-1-%E4%BE%86%E8%87%AA%E6%B7%B1%E6%B7%B5" # 漫畫第一頁網址
-total_episode_amount = 51 # 總集數
+total_episode_amount = 52 # 總集數
 save_folder_location = "D:/" # 確定資料夾儲存位置
 img_save_folder_name = "來自深淵" #確定資料夾名稱
 if_accept_term = True # 是否需處理同意條款
