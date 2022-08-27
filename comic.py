@@ -23,7 +23,7 @@ total_episode_amount = 52 # 總集數
 save_folder_location = "D:/" # 確定資料夾儲存位置
 img_save_folder_name = "來自深淵" #確定資料夾名稱
 if_accept_term = True # 是否需處理同意條款
-if_save_img = True # 下載的圖片要不要儲存
+if_save_img = False # 下載的圖片要不要儲存
 comic_name = "來自深淵"
 
 # 不可更動變數建立
